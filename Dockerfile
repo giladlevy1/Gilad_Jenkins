@@ -3,4 +3,4 @@ FROM python:3.6-jessie
 WORKDIR /opt
 ADD / /opt
 
-ENTRYPOINT ["python", "-u" , "/opt/pydrill1.py" , "120" ]
+ENTRYPOINT ["python", "-u" , "/opt/pydrill1.py" , ]
